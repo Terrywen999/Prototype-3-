@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class stopSign : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnMouseDrag()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
