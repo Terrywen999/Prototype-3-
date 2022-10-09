@@ -46,7 +46,9 @@ public class icon : MonoBehaviour
         {
             screenShot.Invoke();
         }
-        isDrag = false; 
+        isDrag = false;
+        transform.position = startPos;
+        dottedLine.SetActive(false); 
 
 
     }
